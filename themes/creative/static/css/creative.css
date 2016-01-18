@@ -4,6 +4,15 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
+#nav-logo img {
+    display:block;
+    bottom:0px;
+    left:0px;
+    position:fixed;
+    border:1px solid #fff;
+    text-align:center;
+}
+
 html,
 body {
     width: 100%;
