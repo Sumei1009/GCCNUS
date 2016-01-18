@@ -4,7 +4,7 @@
         <div class="header-content-inner">
             <h1>{{ with .Site.Params.hero.slogan }}{{ . }}{{ end }}</h1>
             <hr>
-            <p style="text-align: left">{{ with .Site.Params.hero.subtitle }}{{ . | markdownify }}{{ end }}</p>
+            <p style="text-align: justify">{{ with .Site.Params.hero.subtitle }}{{ . | markdownify }}{{ end }}</p>
             <a href="#portfolio" class="btn btn-primary btn-xl page-scroll">{{ with .Site.Params.hero.buttonText }}{{ . }}{{ end }}</a>
         </div>
     </div>
